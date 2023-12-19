@@ -6,6 +6,7 @@ import vue from '@vitejs/plugin-vue'
 // CK EDITOR DEPENDENDECYS
 import { createRequire } from 'node:module';
 const require = createRequire( import.meta.url );
+
 import ckeditor5 from '@ckeditor/vite-plugin-ckeditor5';
 
 // https://vitejs.dev/config/
